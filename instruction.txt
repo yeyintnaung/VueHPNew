@@ -1,0 +1,9 @@
+using package     1. vuejs-localization
+                  2. using mixin for inject js library for slider and menu and localization (mm,zawgyi,eng)
+
+
+
+
+
+
+auth and reg content are in header.vue
