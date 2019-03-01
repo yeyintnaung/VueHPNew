@@ -3,43 +3,43 @@
             <v-header></v-header>
             <main class="page-content">
                 <!--Start section-->
-                <section class="text-center well well-sm text-md-left section-border">
-                    <div class="container">
-                        <div class="row flow-offset-2">
-                            <div class="col-md-4">
-                                <h4>OUR MISSION</h4>
-                                <hr class="short bg-primary">
-                                <p>We aim to make clients happy by selling the best products at the best prices, in a
-                                    friendly,
-                                    fun atmosphere. Our rating has remained at 100% with excellent and positive feedbacks.
-                                    We
-                                    are constantly adding new products.</p>
-                            </div>
-                            <div class="col-md-4">
-                                <h4>WHAT WE DO</h4>
-                                <hr class="short bg-primary">
-                                <p>
-                                    With teams of experienced professionals we give multiple solutions to our clients around
-                                    the
-                                    world. Our professionals deliver high-touch services to help clients every step they
-                                    take.
+                <!--<section class="text-center well well-sm text-md-left section-border">-->
+                    <!--<div class="container">-->
+                        <!--<div class="row flow-offset-2">-->
+                            <!--<div class="col-md-4">-->
+                                <!--<h4>OUR MISSION</h4>-->
+                                <!--<hr class="short bg-primary">-->
+                                <!--<p>We aim to make clients happy by selling the best products at the best prices, in a-->
+                                    <!--friendly,-->
+                                    <!--fun atmosphere. Our rating has remained at 100% with excellent and positive feedbacks.-->
+                                    <!--We-->
+                                    <!--are constantly adding new products.</p>-->
+                            <!--</div>-->
+                            <!--<div class="col-md-4">-->
+                                <!--<h4>WHAT WE DO</h4>-->
+                                <!--<hr class="short bg-primary">-->
+                                <!--<p>-->
+                                    <!--With teams of experienced professionals we give multiple solutions to our clients around-->
+                                    <!--the-->
+                                    <!--world. Our professionals deliver high-touch services to help clients every step they-->
+                                    <!--take.-->
 
-                                </p>
-                            </div>
-                            <div class="col-md-4">
-                                <h4>WHY CHOOSE US</h4>
-                                <hr class="short bg-primary">
-                                <p>
-                                    We have five values that have always contributed to our success; take pride, be
-                                    passionate,
-                                    never give up, work as a team and make it fun.
+                                <!--</p>-->
+                            <!--</div>-->
+                            <!--<div class="col-md-4">-->
+                                <!--<h4>WHY CHOOSE US</h4>-->
+                                <!--<hr class="short bg-primary">-->
+                                <!--<p>-->
+                                    <!--We have five values that have always contributed to our success; take pride, be-->
+                                    <!--passionate,-->
+                                    <!--never give up, work as a team and make it fun.-->
 
 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                                <!--</p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</section>-->
                 <!--End section-->
 
                 <!--Start section-->

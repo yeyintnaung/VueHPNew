@@ -22,27 +22,17 @@
                         <button data-rd-navbar-toggle=".rd-navbar" class="rd-navbar-toggle"><span></span></button>
                         <!--END RD Navbar Toggle-->
                         <!--RD Navbar Brand-->
-                        <div class="rd-navbar-brand"><a href="index.html" class="brand-name"><img class="logo_img"
-                                                                                                  src="../../assets/images/logo.png"
-                                                                                                  alt=""></a>
+                        <div class="rd-navbar-brand"><a href="index.html" class="brand-name">
+                            <img class="logo_img" src="../../assets/images/logo.png" alt=""></a>
+
                         </div>
                         <!--END RD Navbar Brand-->
                     </div>
                     <!--END RD Navbar Panel-->
 
-                    <div class="rd-navbar-nav-wrap"><a href="shop-cart.html" class="material-icons-shopping_cart"></a>
+                    <div class="rd-navbar-nav-wrap">
                         <!--RD Navbar Search-->
-                        <div class="rd-navbar-search">
-                            <form action="search.php" method="GET" class="rd-navbar-search-form">
-                                <label class="rd-navbar-search-form-input">
-                                    <input type="text" name="s" placeholder="Search.." autocomplete="off">
-                                </label>
-                                <button type="submit" class="rd-navbar-search-form-submit"></button>
-                            </form>
-                            <span class="rd-navbar-live-search-results"></span>
-                            <button data-rd-navbar-toggle=".rd-navbar-search, .rd-navbar-live-search-results"
-                                    class="rd-navbar-search-toggle"></button>
-                        </div>
+
                         <!--END RD Navbar Search-->
 
                         <!--RD Navbar Nav-->
@@ -89,7 +79,8 @@
                 <div data-autoplay="5000" data-slide-effect="fade" data-loop="false"
                      class="swiper-container swiper-slider">
                     <div class="jumbotron text-center">
-                        <h1>{{title}}</h1>
+                        <h1 style="margin-top:102px;color:#ffae00;">HivePhing</h1>
+                        <h3 style="color:white;">{{title}}</h3>
                         <p class="big"></p>
                     </div>
                     <div class="swiper-wrapper">
@@ -145,6 +136,12 @@
             }
             if (this.$route.name == 'user_profile') {
                 this.title = 'Your Profile';
+            }
+            if (this.$route.name == 'all_project') {
+                this.title = 'Your Projects';
+            }
+            if (this.$route.name == 'project_cat_to_up' || this.$route.name == 'upload_project' ) {
+                this.title = 'To Upload Project';
             }
             console.log('header effect')
         }

@@ -29,12 +29,29 @@ module.exports = {
     }
   },
   module: {
+
     rules: [
+
       {
         test: /\.vue$/,
         loader: 'vue-loader',
         options: vueLoaderConfig
       },
+        {
+            test: /\.scss$/,
+            loader: 'style-loader!css-loader!sass-loader'
+        },
+        {
+            test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+            use: [{
+                loader: 'file-loader',
+                options: {
+                    name: '[name].[ext]',
+                    outputPath: 'fonts/'
+                }
+            }]
+        },
+
       {
         test: /\.js$/,
         loader: 'babel-loader',
@@ -56,16 +73,8 @@ module.exports = {
           name: utils.assetsPath('media/[name].[hash:7].[ext]')
         }
       },
-      {
-        test: /\.(woff)(\?.*)?$/,
-        loader: 'url-loader',
-        options: {
-          limit: 10000,
-          name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
-        }
-      }
 
-    ]
+       ]
   },
 
   node: {

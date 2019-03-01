@@ -295,7 +295,7 @@
 
                         </div>
                     </div>
-                    <a href="index.html" class="btn btn-default btn-default--mod-1 btn-sm round-xl offset-2">Back to
+                    <a href="/" class="btn btn-default btn-default--mod-1 btn-sm round-xl offset-2">Back to
                         homepage</a>
                 </div>
             </section>

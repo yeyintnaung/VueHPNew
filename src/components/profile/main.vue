@@ -2,7 +2,11 @@
     <div @mousemove.prevent="cl()" v-bind:class="zu">
         <v-header></v-header>
         <section class="well well-sm well-sm--inset-2" id="login">
+
             <div class="container text-center">
+                <div class="alert alert-success" v-if="status=='success'">
+                    <strong>Successfully updated!</strong>
+                </div>
                 <div class="row flow-offset-1">
                     <div class="col-md-6 col-md-offset-3 btn-shadow inset-sm-min bg-white">
                         <h5 class="text-center">Your Profile</h5>
@@ -13,19 +17,16 @@
                                 </div>
                             </div>
                         </template>
-                        <form class="row label-insets" v-on:submit.prevent="gologin">
+                        <form class="row label-insets" v-on:submit.prevent="edit">
                             <div class="form-group col-sm-12 text-left">
                                 <label for="exampleInputText2" class="">{{$lang.messages.default.proposal_form.name}}</label>
                                 <input type="text" v-model="name" id="exampleInputText2" class="form-control">
-
-
                             </div>
                             <div class="form-group col-sm-6 text-left">
                                 <label for="exampleInputPass1"
                                        class="text-uppercase font-secondary">Phone</label>
                                 <input type="number" v-model="phone" id="exampleInputPass1"
                                        class="form-control">
-
                             </div>
                             <div class="col-sm-6">
                                 <button type="submit" class="btn btn-primary btn-xs round-xl btn-block form-el-offset-1"
@@ -35,8 +36,6 @@
                             </div>
                         </form>
                         <div class="col-xs-12 text-center">
-                            <p class="small text-uppercase text-light-clr font-secondary max-width separate">
-                                or</p>
                             <div class="btn-elements-group-2">
                                 <!--<a href="#" class="btn btn-info btn-xs round-small btn-icon-left btn-min-width"><span-->
                                 <!--class="icon fa-facebook"></span> facebook</a><a href="#"-->
@@ -44,13 +43,11 @@
                                 <!--class="icon fa-twitter"></span> Twitter</a><a href="#"-->
                                 <!--class="btn btn-danger btn-xs round-small btn-icon-left btn-min-width"><span-->
                                 <!--class="icon fa-google-plus"></span> Google+</a>-->
-
                             </div>
                         </div>
-
                     </div>
                 </div>
-                <a href="index.html" class="btn btn-default btn-default--mod-1 btn-sm round-xl offset-2">Back to
+                <a href="/" class="btn btn-default btn-default--mod-1 btn-sm round-xl offset-2">Back to
                     homepage</a>
             </div>
         </section>
@@ -110,7 +107,7 @@
                 self.error = '';
                 return axios({
                     method: 'post',
-                    url: 'https://www.hivephing.com/constructback/api/user_data/edit',
+                    url: 'http://localhost/userHpbk/api/user_data/edit',
                     data: {
                         token: localStorage.getItem('token'),
                         name: self.name,
@@ -127,6 +124,7 @@
                         self.name = response.data.data.name;
                         self.phone = response.data.data.phone;
                         self.status = 'success';
+
 
                         console.log(response.data);
                     }
