@@ -16682,11 +16682,11 @@ div.direction-md-rtl p {
 }
 
 .bg-image-1 {
-    background-image: url(/images/image-4.jpg)
+    background-image: url(/static/images/image-4.jpg)
 }
 
 .bg-image-1--mod-1 {
-    background-image: url(/images/image-5.jpg)
+    background-image: url(/static/images/image-5.jpg)
 }
 
 .bg-image-1 h1, .bg-image-1 h2, .bg-image-1 h3, .bg-image-1 h4, .bg-image-1 h5, .bg-image-1 h6, .bg-image-1 .h1, .bg-image-1 .h2, .bg-image-1 .h3, .bg-image-1 .h4, .bg-image-1 .h5, .bg-image-1 .h6 {

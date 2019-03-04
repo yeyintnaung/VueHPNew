@@ -33,8 +33,9 @@
                             <!--END RD Navbar Toggle-->
 
                             <!--RD Navbar Brand-->
-                            <div class="rd-navbar-brand"><a href="index.html" class="brand-name"><img
-                                    src="../../assets/images/logo-2.png" class="logo_img" alt="" style=""></a>
+                            <div class="rd-navbar-brand"><a href="index.html" class="brand-name" ><img
+                                    src="../../assets/images/logo-2.png" class="logo_img" alt="" style="float:left;"><h3 style="color:white;">HivePhing</h3>
+                            </a>
                             </div>
                             <!--END RD Navbar Brand-->
                         </div>
@@ -70,135 +71,135 @@
 
                             <!--RD Navbar Nav-->
                             <ul class="rd-navbar-nav">
-                                <li><a href="./">Home</a></li>
-                                <li><a href="#">Elements</a>
+                                <!--<li><a href="./">Home</a></li>-->
+                                <!--<li><a href="#">Elements</a>-->
 
-                                    <!--RD Navbar Dropdown-->
-                                    <ul class="rd-navbar-dropdown">
-                                        <li><a href="accourdions_tabs.html">Tabs & Accordions</a></li>
-                                        <li><a href="typography.html">Typography</a></li>
-                                        <li><a href="forms.html">Forms</a></li>
-                                        <li><a href="buttons.html">Buttons</a></li>
-                                        <li><a href="grid.html">Grid</a></li>
-                                        <li><a href="icons.html">Icons</a></li>
-                                        <li><a href="tables.html">Tables</a></li>
-                                        <li><a href="progress_bars.html">Progress bars</a></li>
-                                    </ul>
-                                    <!--END RD Navbar Dropdown-->
+                                    <!--&lt;!&ndash;RD Navbar Dropdown&ndash;&gt;-->
+                                    <!--<ul class="rd-navbar-dropdown">-->
+                                        <!--<li><a href="accourdions_tabs.html">Tabs & Accordions</a></li>-->
+                                        <!--<li><a href="typography.html">Typography</a></li>-->
+                                        <!--<li><a href="forms.html">Forms</a></li>-->
+                                        <!--<li><a href="buttons.html">Buttons</a></li>-->
+                                        <!--<li><a href="grid.html">Grid</a></li>-->
+                                        <!--<li><a href="icons.html">Icons</a></li>-->
+                                        <!--<li><a href="tables.html">Tables</a></li>-->
+                                        <!--<li><a href="progress_bars.html">Progress bars</a></li>-->
+                                    <!--</ul>-->
+                                    <!--&lt;!&ndash;END RD Navbar Dropdown&ndash;&gt;-->
 
-                                </li>
-                                <li><a href="#">Features</a>
-                                    <ul class="rd-navbar-dropdown">
-                                        <li><a href="index-parallax.html">Header Parallax</a></li>
-                                        <li><a href="index-2.html">Header Transparent</a></li>
-                                        <li><a href="index-cent.html">Header Center, Footer Light</a></li>
-                                        <li><a href="index-min.html">Header Minimal, Footer Light</a></li>
-                                        <li><a href="index-topbar.html">Header Corporate</a></li>
-                                        <li><a href="index-sidebar.html">Header Hamburger Menu</a></li>
-                                        <li><a href="index-cent-dark.html">Footer Center Dark</a></li>
-                                        <li><a href="index-min-dark.html">Footer Minimal Dark</a></li>
-                                        <li><a href="index-wid.html">Footer Widget Light</a></li>
-                                        <li><a href="index-wid-dark.html">Footer Widget Dark</a></li>
-                                    </ul>
-                                </li>
-                                <li class="active"><a href="#">Extras</a>
-                                    <ul class="rd-navbar-dropdown">
-                                        <li><a href="404.html">404</a></li>
-                                        <li><a href="coming.html">Coming soon</a></li>
-                                        <li><a href="login.html">Login page</a></li>
-                                        <li><a href="maintenance.html">Maintenance page</a></li>
-                                        <li><a href="register.html">Register page</a></li>
-                                        <li><a href="search-res.html">Search results page</a></li>
-                                        <li><a href="terms.html">Terms of Service</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-megamenu"><a href="#">Pages</a>
+                                <!--</li>-->
+                                <!--<li><a href="#">Features</a>-->
+                                    <!--<ul class="rd-navbar-dropdown">-->
+                                        <!--<li><a href="index-parallax.html">Header Parallax</a></li>-->
+                                        <!--<li><a href="index-2.html">Header Transparent</a></li>-->
+                                        <!--<li><a href="index-cent.html">Header Center, Footer Light</a></li>-->
+                                        <!--<li><a href="index-min.html">Header Minimal, Footer Light</a></li>-->
+                                        <!--<li><a href="index-topbar.html">Header Corporate</a></li>-->
+                                        <!--<li><a href="index-sidebar.html">Header Hamburger Menu</a></li>-->
+                                        <!--<li><a href="index-cent-dark.html">Footer Center Dark</a></li>-->
+                                        <!--<li><a href="index-min-dark.html">Footer Minimal Dark</a></li>-->
+                                        <!--<li><a href="index-wid.html">Footer Widget Light</a></li>-->
+                                        <!--<li><a href="index-wid-dark.html">Footer Widget Dark</a></li>-->
+                                    <!--</ul>-->
+                                <!--</li>-->
+                                <!--<li class="active"><a href="#">Extras</a>-->
+                                    <!--<ul class="rd-navbar-dropdown">-->
+                                        <!--<li><a href="404.html">404</a></li>-->
+                                        <!--<li><a href="coming.html">Coming soon</a></li>-->
+                                        <!--<li><a href="login.html">Login page</a></li>-->
+                                        <!--<li><a href="maintenance.html">Maintenance page</a></li>-->
+                                        <!--<li><a href="register.html">Register page</a></li>-->
+                                        <!--<li><a href="search-res.html">Search results page</a></li>-->
+                                        <!--<li><a href="terms.html">Terms of Service</a></li>-->
+                                    <!--</ul>-->
+                                <!--</li>-->
+                                <!--<li class="dropdown-megamenu"><a href="#">Pages</a>-->
 
-                                    <!--RD Navbar Megamenu-->
-                                    <ul class="rd-navbar-megamenu">
-                                        <li>
-                                            <p>Pages</p>
-                                            <ul>
-                                                <li><a href="index-2.html">Home 2</a></li>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="our-team.html">Our Team</a></li>
-                                                <li><a href="team-member.html">Team member profile</a></li>
-                                                <li><a href="contact_us.html">Contact Us</a></li>
-                                                <li><a href="contact_us_2.html">Contact Us 2</a></li>
-                                                <li><a href="pricing.html">Pricing</a></li>
-                                                <li><a href="services.html">Services page</a></li>
-                                                <li><a href="clients.html">Clients Page</a></li>
-                                                <li><a href="faq.html">FAQ Page</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <p>Pages 2</p>
-                                            <ul>
-                                                <li><a href="left_sidebar.html">With left sidebar</a></li>
-                                                <li><a href="right_sidebar.html">With right sidebar</a></li>
-                                                <li><a href="no_sidebar.html">Without sidebar</a></li>
-                                                <li><a href="blog_default.html">Default Blog</a></li>
-                                                <li><a href="blog_columns_2.html">2 Columns Blog</a></li>
-                                                <li><a href="blog_columns_3.html">3 Columns Blog</a></li>
-                                                <li><a href="blog_archive.html">Archive page</a></li>
-                                                <li><a href="blog_post.html">Post page</a></li>
-                                                <li><a href="timeline.html">Timeline</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <p>Layouts</p>
-                                            <ul>
-                                                <li><a href="index-2.html">Header Transparent</a></li>
-                                                <li><a href="index-cent.html">Header Center, Footer Light</a></li>
-                                                <li><a href="index-min.html">Header Minimal, Footer Light</a></li>
-                                                <li><a href="index-topbar.html">Header Corporate</a></li>
-                                                <li><a href="index-sidebar.html">Header Hamburger Menu</a></li>
-                                                <li><a href="index-cent-dark.html">Footer Center Dark</a></li>
-                                                <li><a href="index-min-dark.html">Footer Minimal Dark</a></li>
-                                                <li><a href="index-wid.html">Footer Widget Light</a></li>
-                                                <li><a href="index-wid-dark.html">Footer Widget Dark</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <p>E-commerce</p>
-                                            <ul>
-                                                <li><a href="shop-catalog.html">Product catalog</a></li>
-                                                <li><a href="shop-product.html">Single product</a></li>
-                                                <li><a href="shop-cart.html">Shopping cart</a></li>
-                                                <li><a href="shop-checkout.html">Checkout</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <!--END RD Navbar Megamenu-->
-                                </li>
-                                <li><a href="#">Blog</a>
-                                    <ul class="rd-navbar-dropdown">
-                                        <li><a href="blog_default.html">Default Blog</a></li>
-                                        <li><a href="blog_columns_2.html">2 Columns Blog</a></li>
-                                        <li><a href="blog_columns_3.html">3 Columns Blog</a></li>
-                                        <li><a href="blog_archive.html">Archive page</a></li>
-                                        <li><a href="blog_post.html">Post page</a></li>
-                                        <li><a href="timeline.html">Timeline <span class="marked">hot</span></a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Gallery</a>
-                                    <ul class="rd-navbar-dropdown">
-                                        <li><a href="gallery-1.html">Grid Padding Gallery</a></li>
-                                        <li><a href="gallery-2.html">Grid No Padding Gallery</a></li>
-                                        <li><a href="gallery-3.html">Grid Masonry</a></li>
-                                        <li><a href="gallery-4.html">Grid Cobbles</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Shop</a>
+                                    <!--&lt;!&ndash;RD Navbar Megamenu&ndash;&gt;-->
+                                    <!--<ul class="rd-navbar-megamenu">-->
+                                        <!--<li>-->
+                                            <!--<p>Pages</p>-->
+                                            <!--<ul>-->
+                                                <!--<li><a href="index-2.html">Home 2</a></li>-->
+                                                <!--<li><a href="about.html">About Us</a></li>-->
+                                                <!--<li><a href="our-team.html">Our Team</a></li>-->
+                                                <!--<li><a href="team-member.html">Team member profile</a></li>-->
+                                                <!--<li><a href="contact_us.html">Contact Us</a></li>-->
+                                                <!--<li><a href="contact_us_2.html">Contact Us 2</a></li>-->
+                                                <!--<li><a href="pricing.html">Pricing</a></li>-->
+                                                <!--<li><a href="services.html">Services page</a></li>-->
+                                                <!--<li><a href="clients.html">Clients Page</a></li>-->
+                                                <!--<li><a href="faq.html">FAQ Page</a></li>-->
+                                            <!--</ul>-->
+                                        <!--</li>-->
+                                        <!--<li>-->
+                                            <!--<p>Pages 2</p>-->
+                                            <!--<ul>-->
+                                                <!--<li><a href="left_sidebar.html">With left sidebar</a></li>-->
+                                                <!--<li><a href="right_sidebar.html">With right sidebar</a></li>-->
+                                                <!--<li><a href="no_sidebar.html">Without sidebar</a></li>-->
+                                                <!--<li><a href="blog_default.html">Default Blog</a></li>-->
+                                                <!--<li><a href="blog_columns_2.html">2 Columns Blog</a></li>-->
+                                                <!--<li><a href="blog_columns_3.html">3 Columns Blog</a></li>-->
+                                                <!--<li><a href="blog_archive.html">Archive page</a></li>-->
+                                                <!--<li><a href="blog_post.html">Post page</a></li>-->
+                                                <!--<li><a href="timeline.html">Timeline</a></li>-->
+                                            <!--</ul>-->
+                                        <!--</li>-->
+                                        <!--<li>-->
+                                            <!--<p>Layouts</p>-->
+                                            <!--<ul>-->
+                                                <!--<li><a href="index-2.html">Header Transparent</a></li>-->
+                                                <!--<li><a href="index-cent.html">Header Center, Footer Light</a></li>-->
+                                                <!--<li><a href="index-min.html">Header Minimal, Footer Light</a></li>-->
+                                                <!--<li><a href="index-topbar.html">Header Corporate</a></li>-->
+                                                <!--<li><a href="index-sidebar.html">Header Hamburger Menu</a></li>-->
+                                                <!--<li><a href="index-cent-dark.html">Footer Center Dark</a></li>-->
+                                                <!--<li><a href="index-min-dark.html">Footer Minimal Dark</a></li>-->
+                                                <!--<li><a href="index-wid.html">Footer Widget Light</a></li>-->
+                                                <!--<li><a href="index-wid-dark.html">Footer Widget Dark</a></li>-->
+                                            <!--</ul>-->
+                                        <!--</li>-->
+                                        <!--<li>-->
+                                            <!--<p>E-commerce</p>-->
+                                            <!--<ul>-->
+                                                <!--<li><a href="shop-catalog.html">Product catalog</a></li>-->
+                                                <!--<li><a href="shop-product.html">Single product</a></li>-->
+                                                <!--<li><a href="shop-cart.html">Shopping cart</a></li>-->
+                                                <!--<li><a href="shop-checkout.html">Checkout</a></li>-->
+                                            <!--</ul>-->
+                                        <!--</li>-->
+                                    <!--</ul>-->
+                                    <!--&lt;!&ndash;END RD Navbar Megamenu&ndash;&gt;-->
+                                <!--</li>-->
+                                <!--<li><a href="#">Blog</a>-->
+                                    <!--<ul class="rd-navbar-dropdown">-->
+                                        <!--<li><a href="blog_default.html">Default Blog</a></li>-->
+                                        <!--<li><a href="blog_columns_2.html">2 Columns Blog</a></li>-->
+                                        <!--<li><a href="blog_columns_3.html">3 Columns Blog</a></li>-->
+                                        <!--<li><a href="blog_archive.html">Archive page</a></li>-->
+                                        <!--<li><a href="blog_post.html">Post page</a></li>-->
+                                        <!--<li><a href="timeline.html">Timeline <span class="marked">hot</span></a></li>-->
+                                    <!--</ul>-->
+                                <!--</li>-->
+                                <!--<li><a href="#">Gallery</a>-->
+                                    <!--<ul class="rd-navbar-dropdown">-->
+                                        <!--<li><a href="gallery-1.html">Grid Padding Gallery</a></li>-->
+                                        <!--<li><a href="gallery-2.html">Grid No Padding Gallery</a></li>-->
+                                        <!--<li><a href="gallery-3.html">Grid Masonry</a></li>-->
+                                        <!--<li><a href="gallery-4.html">Grid Cobbles</a></li>-->
+                                    <!--</ul>-->
+                                <!--</li>-->
+                                <!--<li><a href="#">Shop</a>-->
 
-                                    <ul class="rd-navbar-dropdown">
-                                        <li><a href="shop-catalog.html">Product catalog</a></li>
-                                        <li><a href="shop-product.html">Single product</a></li>
-                                        <li><a href="shop-cart.html">Shopping cart</a></li>
-                                        <li><a href="shop-checkout.html">Checkout</a></li>
-                                    </ul>
+                                    <!--<ul class="rd-navbar-dropdown">-->
+                                        <!--<li><a href="shop-catalog.html">Product catalog</a></li>-->
+                                        <!--<li><a href="shop-product.html">Single product</a></li>-->
+                                        <!--<li><a href="shop-cart.html">Shopping cart</a></li>-->
+                                        <!--<li><a href="shop-checkout.html">Checkout</a></li>-->
+                                    <!--</ul>-->
 
-                                </li>
+                                <!--</li>-->
                                 <li>
                                     <a href="#" class="lan_cl" @click="cc(lang='mm')">zaw</a>
 
@@ -343,7 +344,7 @@
                 self.status = '';
                 return axios({
                     method: 'post',
-                    url: 'http://localhost/userHpbk/login',
+                    url: 'https://www.hivephing.com/constructback/login',
                     cache: false,
                     data: {
                         phone: self.phone,
